@@ -1,0 +1,35 @@
+body {
+    background-color: #c3fd6c !important;
+  }
+  h3 {
+    color: green;
+  }
+  p {
+    color: #487504;
+  }
+  #header {
+    margin-top: 20px;
+    margin: 50px;
+    color: green;
+    text-align: center;
+  }
+  #countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .country,
+  .countryDetail {
+    border: 2px solid rgb(2, 102, 2);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+  }
+  .countryDetail {
+    margin: auto;
+    margin-top: 50px;
+    width: 1200px;
+    display: none;
+  }
+  .countryDetail img {
+    width: 400px;
+  }
